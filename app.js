@@ -10,3 +10,6 @@ greet3.greet();
 var Greet4 = require('./greet4');
 var grtr = new Greet4();
 grtr.greet();
+
+var greet5 = require('./greet5') // preferred to protect code
+greet5.greet();
